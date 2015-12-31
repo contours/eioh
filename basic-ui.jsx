@@ -11,8 +11,8 @@ const Label = ({id, label}) => (
 )
 
 const Button = ({id, label}, isActive, onClick) => {
-  let classes = "flex-auto btn btn-primary border-left rounded-right"
-  if (isActive) classes += " is-active"
+  let classes = "flex-auto btn x-group-item not-rounded "
+    + (isActive ? "btn-primary is-active" : "btn-outline")
   let handleClick = () => {
     if (isActive) return
     onClick(id)
@@ -32,7 +32,7 @@ const Button = ({id, label}, isActive, onClick) => {
 }
 
 const ButtonGroup = ({items, selected, onClick}) => (
-  <div className="flex center">
+  <div className="flex center blue">
     {items.map(item =>
       Button(item, item.id == selected, onClick))}
   </div>
