@@ -73,8 +73,8 @@ class BasicUI extends React.Component {
           selected={this.state.selected}
         />
         <div
-          className="flex flex-column"
-          style={{height: "100vh"}}
+          className="flex flex-column mt3"
+          style={{height: "90vh"}}
         >
           <div className="flex flex-stretch flex-auto">
             <TranscriptPlayer
