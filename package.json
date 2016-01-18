@@ -26,9 +26,10 @@
   "dependencies": {
     "basscss": "^7.1.0",
     "font-awesome": "^4.5.0",
+    "babel-runtime": "^6.3.19",
     "react": "^0.14.5",
     "react-dom": "^0.14.5",
-    "react-transcript-player": "^1.0.0",
+    "react-transcript-player": "^1.2.0",
     "whatwg-fetch": "^0.10.1"
   }
 }

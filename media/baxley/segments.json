@@ -1,0 +1,45 @@
+{ 
+  "id": "U-0078",
+  "segments": [
+    {
+      "start": 0,
+      "end": 468,
+      "description": "Growing up in Alabama; early observations of racism; starting to practice law"
+    },
+    {
+      "start": 469,
+      "end": 1242,
+      "description": "Becoming Attorney General in 1970; dismissal of cases obstructing enforcement of civil rights"
+    },
+    {
+      "start": 1243,
+      "end": 1769,
+      "description": "Breaking the color line by hiring black attorneys"
+    },
+    {
+      "start": 1770,
+      "end": 2230,
+      "description": "Beginning of 16th Street Baptist Church bombing investigation; early focus on suspect J.B. Stoner"
+    },
+    {
+      "start": 2231,
+      "end": 3055,
+      "description": "Friction with the FBI over access to their investigation files"
+    },
+    {
+      "start": 3056,
+      "end": 3525,
+      "description": "Decision to indict Robert Chambliss; indictment of J.B. Stoner; Doug Jones' indictment of Thomas Blanton and Bobby Cherry"
+    },
+    {
+      "start": 3526,
+      "end": 3828,
+      "description": "(Lack of) cooperation with the FBI"
+    },
+    {
+      "start": 3829,
+      "end": 4573,
+      "description": "Witnesses at the Chambliss trial"
+    }
+  ]
+}

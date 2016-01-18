@@ -2,7 +2,7 @@
 
 import React from 'react'
 import ReactDOM from 'react-dom'
-import BasicUI from './basic-ui.jsx'
+import SegmentsUI from './segments-ui.jsx'
 import 'whatwg-fetch'
 
-ReactDOM.render(<BasicUI/>, document.getElementById('mount'))
+ReactDOM.render(<SegmentsUI/>, document.getElementById('mount'))

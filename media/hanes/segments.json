@@ -1,0 +1,35 @@
+{ 
+  "id": "U-0080",
+  "segments": [
+    {
+      "start": 0,
+      "end": 475,
+      "description": "Growing up in Alabama; starting to practice law with his father"
+    },
+    {
+      "start": 476,
+      "end": 1246,
+      "description": "Representing Chambliss in the 16th Street Baptist Church case"
+    },
+    {
+      "start": 1247,
+      "end": 2170,
+      "description": "Aftermath of the 16th Street Baptist Church case; breaking the news of Chambliss' conviction to his wife"
+    },
+    {
+      "start": 2171,
+      "end": 3109,
+      "description": "Operation New Birmingham; Al Lingo; Bull Connor; Jack Kennedy; \"people of good will\" on both sides"
+    },
+    {
+      "start": 3110,
+      "end": 3615,
+      "description": "Former Birmingham mayors; changes in city government"
+    },
+    {
+      "start": 3616,
+      "end": 4143,
+      "description": "Making the Civil Rights Movement history; changes in Birmingham"
+    }
+  ]
+}
