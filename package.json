@@ -8,7 +8,7 @@
     "babel-preset-react": "^6.3.13",
     "babel-preset-stage-1": "^6.3.13",
     "babelify": "^7.2.0",
-    "budo": "^7.1.0",
+    "budo": "^8.0.0",
     "cssnext": "^1.8.4",
     "eslint": "^1.9.0",
     "eslint-plugin-react": "^3.8.0",
@@ -17,16 +17,16 @@
   },
   "scripts": {
     "lint": "eslint --ext .jsx src",
-    "build": "npm -s run lint && npm -s run transpile",
-    "build-watch": "watchy -s -w src -i '/#|/flycheck_' -- npm -s run build",
     "css": "cssnext src.css style.css",
     "watch-css": "watchy -s -w src.css -- npm -s run css",
-    "serve": "npm -s run watch-css & budo index.js:bundle.js --live -- -t [ babelify ] | garnish"
+    "serve": "npm -s run watch-css & budo index.js:bundle.js --live -- -t [ babelify ] --extension=.jsx | garnish"
   },
   "dependencies": {
-    "basscss": "^7.1.0",
-    "font-awesome": "^4.5.0",
     "babel-runtime": "^6.3.19",
+    "basscss": "^7.1.0",
+    "colorbrewer": "^1.0.0",
+    "d3": "^3.5.15",
+    "font-awesome": "^4.5.0",
     "react": "^0.14.5",
     "react-dom": "^0.14.5",
     "react-transcript-player": "^1.2.0",
