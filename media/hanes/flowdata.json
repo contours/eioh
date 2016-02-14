@@ -1,0 +1,845 @@
+{
+  "id": "U-0080",
+  "label": "Hanes, Arthur, Jr., 27 May 2003",
+  "entities": [
+    {
+      "name": "Art Hanes"
+    },
+    {
+      "name": "Bill Baxley"
+    },
+    {
+      "name": "FBI"
+    },
+    {
+      "name": "George Seibels"
+    },
+    {
+      "name": "Viola Liuzzo"
+    },
+    {
+      "name": "Eugene Thomas"
+    },
+    {
+      "name": "James Earl Ray"
+    },
+    {
+      "name": "Martin Luther King"
+    },
+    {
+      "name": "Robert Chambliss"
+    },
+    {
+      "name": "David Vann"
+    },
+    {
+      "name": "Richard Arrington"
+    },
+    {
+      "name": "Civil Rights Institute"
+    },
+    {
+      "name": "Bernard Kincaid"
+    },
+    {
+      "name": "Elizabeth Cobbs"
+    },
+    {
+      "name": "Thomas Blanton, Jr."
+    },
+    {
+      "name": "Bobby Cherry"
+    },
+    {
+      "name": "Tee Chambliss"
+    },
+    {
+      "name": "Wallace Gibson"
+    },
+    {
+      "name": "Al Lingo"
+    },
+    {
+      "name": "Bull Connor"
+    },
+    {
+      "name": "Albert Boutwell"
+    }
+  ],
+  "sessions": [
+    {
+      "entities": [
+        {
+          "mentions": [
+            {
+              "excerpt": "started. I remember very well <b>my dad</b> was a PT boat skipper",
+              "url": "#interview=U-0080&t=60"            },
+            {
+              "excerpt": "days well. After the war <b>he</b> came back and went to",
+              "url": "#interview=U-0080&t=65"            },
+            {
+              "excerpt": "school on the GI Bill. <b>He</b> and my mother were good",
+              "url": "#interview=U-0080&t=73"            },
+            {
+              "excerpt": "of the matter is, although <b>he</b> would never admit it, mother",
+              "url": "#interview=U-0080&t=73"            },
+            {
+              "excerpt": "a very fine card player. <b>He</b> would leave her sleeping in",
+              "url": "#interview=U-0080&t=73"            },
+            {
+              "excerpt": "here during the war with <b>my dad's</b> five sisters and my mother's",
+              "url": "#interview=U-0080&t=114"            },
+            {
+              "excerpt": "and Washington, D. C. when <b>my dad</b> was in the FBI. Then",
+              "url": "#interview=U-0080&t=116"            },
+            {
+              "excerpt": "was in law school, and <b>my dad</b> had left the office of",
+              "url": "#interview=U-0080&t=195"            },
+            {
+              "excerpt": "run for a second term. <b>He</b> had gone back to the",
+              "url": "#interview=U-0080&t=218"            },
+            {
+              "excerpt": "Montgomery march. At that time <b>he</b> was in the position where",
+              "url": "#interview=U-0080&t=237"            },
+            {
+              "excerpt": "London when he was arrested. <b>My dad</b> and I went to London",
+              "url": "#interview=U-0080&t=314"            },
+            {
+              "excerpt": "back to Birmingham to get <b>my dad</b> and our files. We got",
+              "url": "#interview=U-0080&t=346"            }
+          ],
+          "name": "Art Hanes",
+          "value": 12
+        },
+        {
+          "mentions": [
+            {
+              "excerpt": "when my dad was in <b>the FBI</b>. Then we came back and",
+              "url": "#interview=U-0080&t=116"            }
+          ],
+          "name": "FBI",
+          "value": 1
+        },
+        {
+          "mentions": [
+            {
+              "excerpt": "were Klansmen charged with killing <b>Viola Liuzzo</b> on the Selma to Montgomery",
+              "url": "#interview=U-0080&t=229"            },
+            {
+              "excerpt": "acquittal in the killing of <b>Viola Liuzzo</b>. In those days there were",
+              "url": "#interview=U-0080&t=299"            }
+          ],
+          "name": "Viola Liuzzo",
+          "value": 2
+        },
+        {
+          "mentions": [
+            {
+              "excerpt": "was acquitted. Then we tried <b>Eugene Thomas</b> several months later. We tried",
+              "url": "#interview=U-0080&t=290"            }
+          ],
+          "name": "Eugene Thomas",
+          "value": 1
+        },
+        {
+          "mentions": [
+            {
+              "excerpt": "law practice which lead to <b>James Earl Ray</b> calling us from London when",
+              "url": "#interview=U-0080&t=314"            },
+            {
+              "excerpt": "1968, and undertook to represent <b>James Earl Ray</b>. As we speak now I'm",
+              "url": "#interview=U-0080&t=314"            },
+            {
+              "excerpt": "was our turn of events. <b>James Earl Ray</b> changed lawyers on Sunday night",
+              "url": "#interview=U-0080&t=335"            },
+            {
+              "excerpt": "spent all day Friday with <b>him</b> in Memphis. We were due",
+              "url": "#interview=U-0080&t=346"            },
+            {
+              "excerpt": "weekend in the cell with <b>James Earl Ray</b>. He got in there right",
+              "url": "#interview=U-0080&t=374"            },
+            {
+              "excerpt": "I left on Friday. Talked <b>Ray</b> into changing lawyers, and by",
+              "url": "#interview=U-0080&t=403"            },
+            {
+              "excerpt": "him into pleading guilty which <b>Ray</b> renounced immediately. A sidelight, not",
+              "url": "#interview=U-0080&t=411"            },
+            {
+              "excerpt": "for, but I'm reasonably convinced <b>James Earl Ray</b> did not fire the shot",
+              "url": "#interview=U-0080&t=411"            }
+          ],
+          "name": "James Earl Ray",
+          "value": 8
+        },
+        {
+          "mentions": [
+            {
+              "excerpt": "alive who ever prepared the <b>Martin Luther King</b> case for trial, and it",
+              "url": "#interview=U-0080&t=335"            },
+            {
+              "excerpt": "fire the shot the killed <b>Dr. King</b>. I think I could convince",
+              "url": "#interview=U-0080&t=411"            }
+          ],
+          "name": "Martin Luther King",
+          "value": 2
+        }
+      ],
+      "name": "Growing up in Alabama; starting to practice law with his father",
+      "url": "#interview=U-0080&t=0"
+    },
+    {
+      "entities": [
+        {
+          "mentions": [
+            {
+              "excerpt": "in the front chair, and <b>my dad</b> was slowing down some. We",
+              "url": "#interview=U-0080&t=489"            }
+          ],
+          "name": "Art Hanes",
+          "value": 1
+        },
+        {
+          "mentions": [
+            {
+              "excerpt": "he was. We knew that <b>Bill Baxley</b> was just going to eat",
+              "url": "#interview=U-0080&t=709"            },
+            {
+              "excerpt": "he opened the door so <b>Bill Baxley</b> could just nail him with",
+              "url": "#interview=U-0080&t=882"            }
+          ],
+          "name": "Bill Baxley",
+          "value": 2
+        },
+        {
+          "mentions": [
+            {
+              "excerpt": "case, the Ray case, the <b>Liuzzo</b> case. My gracious, the Liuzzo",
+              "url": "#interview=U-0080&t=1132"            },
+            {
+              "excerpt": "Liuzzo case. My gracious, the <b>Liuzzo</b> case had the attorney general",
+              "url": "#interview=U-0080&t=1132"            },
+            {
+              "excerpt": "arrest by name. In the <b>Liuzzo</b> case, Eugene Thomas was standing",
+              "url": "#interview=U-0080&t=1184"            }
+          ],
+          "name": "Viola Liuzzo",
+          "value": 3
+        },
+        {
+          "mentions": [
+            {
+              "excerpt": "name. In the Liuzzo case, <b>Eugene Thomas</b> was standing in a filling",
+              "url": "#interview=U-0080&t=1184"            }
+          ],
+          "name": "Eugene Thomas",
+          "value": 1
+        },
+        {
+          "mentions": [
+            {
+              "excerpt": "case. For instance, in the <b>James Earl Ray</b> case our theory and our",
+              "url": "#interview=U-0080&t=562"            },
+            {
+              "excerpt": "killed Dr. King. In the <b>Ray</b> case, of course we hadn't",
+              "url": "#interview=U-0080&t=584"            },
+            {
+              "excerpt": "was ten years after the <b>Ray</b> case, nine years. Of course",
+              "url": "#interview=U-0080&t=617"            },
+            {
+              "excerpt": "how. Just like in the <b>Ray</b> case I try not to",
+              "url": "#interview=U-0080&t=745"            },
+            {
+              "excerpt": "in the Chambliss case, the <b>Ray</b> case, the Liuzzo case. My",
+              "url": "#interview=U-0080&t=1132"            }
+          ],
+          "name": "James Earl Ray",
+          "value": 5
+        },
+        {
+          "mentions": [
+            {
+              "excerpt": "fired the shot that killed <b>Dr. King</b>. In the Ray case, of",
+              "url": "#interview=U-0080&t=580"            }
+          ],
+          "name": "Martin Luther King",
+          "value": 1
+        },
+        {
+          "mentions": [
+            {
+              "excerpt": "did you come to represent <b>Chambliss</b>? Well, that was a natural",
+              "url": "#interview=U-0080&t=476"            },
+            {
+              "excerpt": "for us to receive when <b>Bob Chambliss</b> called us to represent him",
+              "url": "#interview=U-0080&t=489"            },
+            {
+              "excerpt": "you prepare your defense for <b>Chambliss</b>? Well, it was a horribly",
+              "url": "#interview=U-0080&t=558"            },
+            {
+              "excerpt": "them close the book. The <b>Chambliss</b> case was different. That was",
+              "url": "#interview=U-0080&t=617"            },
+            {
+              "excerpt": "work and what wouldn't work. <b>Chambliss</b> always denied having done it",
+              "url": "#interview=U-0080&t=629"            },
+            {
+              "excerpt": "of the case was that <b>Bob Chambliss</b> was just a mean, racist",
+              "url": "#interview=U-0080&t=629"            },
+            {
+              "excerpt": "but he was known as <b>Dynamite Bob</b>. He had quite a history",
+              "url": "#interview=U-0080&t=629"            },
+            {
+              "excerpt": "was known as Dynamite Bob. <b>He</b> had quite a history of",
+              "url": "#interview=U-0080&t=629"            },
+            {
+              "excerpt": "it be seen how mean <b>he</b> was. We knew that Bill",
+              "url": "#interview=U-0080&t=705"            },
+            {
+              "excerpt": "approached the trial. In fact, <b>Dynamite Bob</b> led me into being judge",
+              "url": "#interview=U-0080&t=740"            },
+            {
+              "excerpt": "nut at all. In the <b>Chambliss</b> case I try not to",
+              "url": "#interview=U-0080&t=745"            },
+            {
+              "excerpt": "witness was going to be <b>Bob Chambliss</b>. It had gone some days",
+              "url": "#interview=U-0080&t=764"            },
+            {
+              "excerpt": "and I looked down at <b>Bob Chambliss</b>, and said, \"Take the stand",
+              "url": "#interview=U-0080&t=788"            },
+            {
+              "excerpt": "Bob.\" I'll never forget it. <b>He</b> looked up at me and",
+              "url": "#interview=U-0080&t=788"            },
+            {
+              "excerpt": "and said, \"No.\" I said, \"<b>Bob</b>! You didn't understand me. It's",
+              "url": "#interview=U-0080&t=788"            },
+            {
+              "excerpt": "testify. Go take the stand.\" <b>He</b> said, \"I'm not going.\" Willoughby",
+              "url": "#interview=U-0080&t=788"            },
+            {
+              "excerpt": "how we went about the <b>Chamblis</b>s case. So you made",
+              "url": "#interview=U-0080&t=883"            },
+            {
+              "excerpt": "person. The person that convicted <b>Bob Chambliss</b> was the lady from Detroit",
+              "url": "#interview=U-0080&t=960"            },
+            {
+              "excerpt": "difficult in the sense that <b>Chambliss</b> could at least credibly deny",
+              "url": "#interview=U-0080&t=992"            },
+            {
+              "excerpt": "it in retrospect. I believe <b>he</b> remembered everything that he did",
+              "url": "#interview=U-0080&t=992"            },
+            {
+              "excerpt": "a conviction regardless. In the <b>Chambliss</b> case with the jury we",
+              "url": "#interview=U-0080&t=992"            },
+            {
+              "excerpt": "were any cases, in the <b>Chambliss</b> case, the Ray case, the",
+              "url": "#interview=U-0080&t=1132"            }
+          ],
+          "name": "Robert Chambliss",
+          "value": 22
+        },
+        {
+          "mentions": [
+            {
+              "excerpt": "Maybe we can start with <b>Elizabeth Cobbs</b>. Elizabeth Cobbs, the niece/nephew",
+              "url": "#interview=U-0080&t=952"            },
+            {
+              "excerpt": "can start with Elizabeth Cobbs. <b>Elizabeth Cobbs</b>, the niece/nephew. Yes, the",
+              "url": "#interview=U-0080&t=959"            },
+            {
+              "excerpt": "nephew. Yes, the niece/nephew. <b>She</b> always claimed that she was",
+              "url": "#interview=U-0080&t=960"            },
+            {
+              "excerpt": "truth of the matter is <b>she</b> didn't prove a thing, I",
+              "url": "#interview=U-0080&t=960"            },
+            {
+              "excerpt": "a thing, I didn't think. <b>She</b> alone meant absolutely nothing. She",
+              "url": "#interview=U-0080&t=960"            },
+            {
+              "excerpt": "She alone meant absolutely nothing. <b>She</b> was just a weird, shaky",
+              "url": "#interview=U-0080&t=960"            },
+            {
+              "excerpt": "no consequence whatever. In fact, <b>she</b> fit right into our plan",
+              "url": "#interview=U-0080&t=960"            },
+            {
+              "excerpt": "a mean old racist man. <b>She</b> was of no consequence we",
+              "url": "#interview=U-0080&t=960"            }
+          ],
+          "name": "Elizabeth Cobbs",
+          "value": 8
+        }
+      ],
+      "name": "Representing Chambliss in the 16th Street Baptist Church case",
+      "url": "#interview=U-0080&t=476"
+    },
+    {
+      "entities": [
+        {
+          "mentions": [
+            {
+              "excerpt": "table, my brother Tom, and <b>my dad</b> and I conferred after the",
+              "url": "#interview=U-0080&t=1552"            }
+          ],
+          "name": "Art Hanes",
+          "value": 1
+        },
+        {
+          "mentions": [
+            {
+              "excerpt": "been prosecuted on that evidence. <b>Bill Baxley</b> left the office of attorney",
+              "url": "#interview=U-0080&t=1264"            },
+            {
+              "excerpt": "story. Never mind. But yeah. <b>Mr. Baxley</b> told a story that you",
+              "url": "#interview=U-0080&t=1512"            },
+            {
+              "excerpt": "Is that about the way <b>Bill</b> tells the story? Yeah, it",
+              "url": "#interview=U-0080&t=1762"            },
+            {
+              "excerpt": "well. He wasn't there, but <b>Bill Baxley</b> can tell a story, I",
+              "url": "#interview=U-0080&t=1766"            },
+            {
+              "excerpt": "know. It's hard to tell. <b>Bill</b> would probably have a better",
+              "url": "#interview=U-0080&t=1794"            },
+            {
+              "excerpt": "of access to FBI information. <b>Bill</b> had some but probably didn't",
+              "url": "#interview=U-0080&t=1837"            },
+            {
+              "excerpt": "reasons. I would defer to <b>Bill Baxley's</b> assessment of it as opposed",
+              "url": "#interview=U-0080&t=1952"            },
+            {
+              "excerpt": "no objection to it, and <b>Bill</b> didn't, Bill Baxley didn't and",
+              "url": "#interview=U-0080&t=2092"            }
+          ],
+          "name": "Bill Baxley",
+          "value": 8
+        },
+        {
+          "mentions": [
+            {
+              "excerpt": "listened to the tapes, the <b>FBI</b> tapes, and I was wondering",
+              "url": "#interview=U-0080&t=1310"            },
+            {
+              "excerpt": "In the first place, the <b>FBI</b> had much of the evidence",
+              "url": "#interview=U-0080&t=1798"            },
+            {
+              "excerpt": "the lack of access to <b>FBI</b> information. Bill had some but",
+              "url": "#interview=U-0080&t=1835"            }
+          ],
+          "name": "FBI",
+          "value": 3
+        },
+        {
+          "mentions": [
+            {
+              "excerpt": "years ago. Well, in the <b>Chambliss</b> case the evidence was such",
+              "url": "#interview=U-0080&t=1262"            },
+            {
+              "excerpt": "For instance, when we tried <b>Bob Chambliss</b> he couldn't get the death",
+              "url": "#interview=U-0080&t=1355"            },
+            {
+              "excerpt": "in 1963, 64, or 65 <b>he</b> could have. Things change over",
+              "url": "#interview=U-0080&t=1374"            },
+            {
+              "excerpt": "always, I have said that <b>Bob Chambliss</b> was the most evil person",
+              "url": "#interview=U-0080&t=1463"            },
+            {
+              "excerpt": "defense has been torpedoed as <b>Bob Chambliss</b> insisted on torpedoing his own",
+              "url": "#interview=U-0080&t=1527"            },
+            {
+              "excerpt": "gentle sole, the antithesis of <b>Bob Chambliss</b>. She hadn't been at the",
+              "url": "#interview=U-0080&t=1552"            },
+            {
+              "excerpt": "as much as we despised <b>Bob</b>. So I went to their",
+              "url": "#interview=U-0080&t=1595"            },
+            {
+              "excerpt": "said, \"Miss Tee, they convicted <b>Bob</b>.\" She said, \"They convicted Bob",
+              "url": "#interview=U-0080&t=1688"            },
+            {
+              "excerpt": "Bob.\" She said, \"They convicted <b>Bob</b>?\" And I said, \"Yes, mam",
+              "url": "#interview=U-0080&t=1688"            },
+            {
+              "excerpt": "mam.\" She said, \"When will <b>he</b> be coming home?\" I said",
+              "url": "#interview=U-0080&t=1688"            },
+            {
+              "excerpt": "her head, and she said, \"<b>He</b> won't be corning home?\" And",
+              "url": "#interview=U-0080&t=1738"            },
+            {
+              "excerpt": "why do you think that <b>Chambliss</b> wasn't tried in 63, or",
+              "url": "#interview=U-0080&t=1777"            }
+          ],
+          "name": "Robert Chambliss",
+          "value": 12
+        },
+        {
+          "mentions": [
+            {
+              "excerpt": "Sixteenth Street cases? That was <b>Blanton</b> and Cherry a couple of",
+              "url": "#interview=U-0080&t=1247"            },
+            {
+              "excerpt": "again. I'll say this about <b>Blanton</b> and Cherry. Their lawyers were",
+              "url": "#interview=U-0080&t=1264"            },
+            {
+              "excerpt": "that. I went to the <b>Blanton</b> trial and listened to the",
+              "url": "#interview=U-0080&t=1310"            }
+          ],
+          "name": "Thomas Blanton, Jr.",
+          "value": 3
+        },
+        {
+          "mentions": [
+            {
+              "excerpt": "cases? That was Blanton and <b>Cherry</b> a couple of years ago",
+              "url": "#interview=U-0080&t=1247"            },
+            {
+              "excerpt": "say this about Blanton and <b>Cherry</b>. Their lawyers were able to",
+              "url": "#interview=U-0080&t=1264"            }
+          ],
+          "name": "Bobby Cherry",
+          "value": 2
+        },
+        {
+          "mentions": [
+            {
+              "excerpt": "after the verdict came down. <b>Tee Chambliss</b>, Bob Chambliss' wife, was a",
+              "url": "#interview=U-0080&t=1552"            },
+            {
+              "excerpt": "and we needed to tell <b>Tee</b>. I told my partners, \"Fellows",
+              "url": "#interview=U-0080&t=1552"            }
+          ],
+          "name": "Tee Chambliss",
+          "value": 2
+        },
+        {
+          "mentions": [
+            {
+              "excerpt": "did we have? We had <b>Judge Wallace Gibson</b>. Judge Gibson was a friend",
+              "url": "#interview=U-0080&t=1976"            },
+            {
+              "excerpt": "We had Judge Wallace Gibson. <b>Judge Gibson</b> was a friend of mine",
+              "url": "#interview=U-0080&t=1976"            },
+            {
+              "excerpt": "courageous calls and well made. <b>Judge Gibson</b> told me one time, I",
+              "url": "#interview=U-0080&t=1976"            },
+            {
+              "excerpt": "office and was visiting with <b>him</b>. He was just sort of",
+              "url": "#interview=U-0080&t=1976"            },
+            {
+              "excerpt": "and was visiting with him. <b>He</b> was just sort of musing",
+              "url": "#interview=U-0080&t=1976"            },
+            {
+              "excerpt": "and being philosophical one afternoon. <b>He</b> said, \"Art, you may want",
+              "url": "#interview=U-0080&t=2020"            }
+          ],
+          "name": "Wallace Gibson",
+          "value": 6
+        }
+      ],
+      "name": "Aftermath of the 16th Street Baptist Church case; breaking the news of Chambliss' conviction to his wife",
+      "url": "#interview=U-0080&t=1247"
+    },
+    {
+      "entities": [
+        {
+          "mentions": [
+            {
+              "excerpt": "messages for Governor Wallace or <b>my dad</b>, whatever it was. I remember",
+              "url": "#interview=U-0080&t=2296"            },
+            {
+              "excerpt": "He was very hard headed. <b>My dad</b> and Jack Kennedy had a",
+              "url": "#interview=U-0080&t=2418"            },
+            {
+              "excerpt": "it was 1961 or 62. <b>My dad</b> was still mayor. He was",
+              "url": "#interview=U-0080&t=2451"            },
+            {
+              "excerpt": "My dad was still mayor. <b>He</b> was not mayor in '63",
+              "url": "#interview=U-0080&t=2463"            },
+            {
+              "excerpt": "the church was bombed. But <b>my dad</b> just agonized. He wanted so",
+              "url": "#interview=U-0080&t=2464"            },
+            {
+              "excerpt": "But my dad just agonized. <b>He</b> wanted so desperately to keep",
+              "url": "#interview=U-0080&t=2464"            },
+            {
+              "excerpt": "get on about the business. <b>He</b> thought air travel was the",
+              "url": "#interview=U-0080&t=2464"            },
+            {
+              "excerpt": "his hope, his whole goal, <b>he</b> was in great competition with",
+              "url": "#interview=U-0080&t=2489"            },
+            {
+              "excerpt": "killing Birmingham, just killing us. <b>My dad</b> was so agonized over it",
+              "url": "#interview=U-0080&t=2491"            },
+            {
+              "excerpt": "potential for violence in Birmingham. <b>He</b> talked to the president about",
+              "url": "#interview=U-0080&t=2491"            },
+            {
+              "excerpt": "of '61 or '62, but <b>he</b> asked the president if they",
+              "url": "#interview=U-0080&t=2531"            },
+            {
+              "excerpt": "to integrate the golf courses. <b>His</b> reasoning was that knowing the",
+              "url": "#interview=U-0080&t=2533"            },
+            {
+              "excerpt": "Jimmy a graduate of Princeton. <b>My dad</b> has a son. I'm not",
+              "url": "#interview=U-0080&t=2728"            }
+          ],
+          "name": "Art Hanes",
+          "value": 13
+        },
+        {
+          "mentions": [
+            {
+              "excerpt": "that. His brother Bobby, and <b>Martin Luther King</b>, and he, they needed an",
+              "url": "#interview=U-0080&t=2590"            }
+          ],
+          "name": "Martin Luther King",
+          "value": 1
+        },
+        {
+          "mentions": [
+            {
+              "excerpt": "through those days. I knew <b>Al Lingo</b> when Al Lingo, I guess",
+              "url": "#interview=U-0080&t=2250"            },
+            {
+              "excerpt": "name? Um-hum. Sure. When <b>Al Lingo</b> was here he had his",
+              "url": "#interview=U-0080&t=2260"            },
+            {
+              "excerpt": "I remember going in and <b>Colonel Lingo</b> always looked like he stepped",
+              "url": "#interview=U-0080&t=2315"            },
+            {
+              "excerpt": "out of a band box. <b>He</b> would lie up in one",
+              "url": "#interview=U-0080&t=2321"            },
+            {
+              "excerpt": "as he would get there <b>Colonel Lingo</b> would lie in the bed",
+              "url": "#interview=U-0080&t=2329"            },
+            {
+              "excerpt": "he had to go out. <b>He</b> would sit there on his",
+              "url": "#interview=U-0080&t=2342"            }
+          ],
+          "name": "Al Lingo",
+          "value": 6
+        },
+        {
+          "mentions": [
+            {
+              "excerpt": "time? Everybody. Everybody? What about <b>Bull Connor</b>? Yeah, Bull Connor. Poor old",
+              "url": "#interview=U-0080&t=2390"            },
+            {
+              "excerpt": "What about Bull Connor? Yeah, <b>Bull Connor</b>. Poor old Bull Connor. I",
+              "url": "#interview=U-0080&t=2394"            },
+            {
+              "excerpt": "Yeah, Bull Connor. Poor old <b>Bull Connor</b>. I say poor old Bull",
+              "url": "#interview=U-0080&t=2394"            },
+            {
+              "excerpt": "Connor. I say poor old <b>Bull Connor</b>, poor old my daddy! Pop",
+              "url": "#interview=U-0080&t=2398"            },
+            {
+              "excerpt": "can do anything with Bull.\" <b>Bull</b> just, oh Bull was probably",
+              "url": "#interview=U-0080&t=2410"            },
+            {
+              "excerpt": "a hundred years too young. <b>He</b> was just hard headed. Bull",
+              "url": "#interview=U-0080&t=2418"            },
+            {
+              "excerpt": "headed. Bull wasn't particularly bright. <b>He</b> was very hard headed. My",
+              "url": "#interview=U-0080&t=2418"            },
+            {
+              "excerpt": "got to be it because <b>Bull Connor</b> is so intractable. Mayor, you",
+              "url": "#interview=U-0080&t=2623"            },
+            {
+              "excerpt": "There were some people like <b>Bull Connor</b> who was not a person",
+              "url": "#interview=U-0080&t=2901"            }
+          ],
+          "name": "Bull Connor",
+          "value": 9
+        }
+      ],
+      "name": "Operation New Birmingham; \"people of good will\" on both sides",
+      "url": "#interview=U-0080&t=2171"
+    },
+    {
+      "entities": [
+        {
+          "mentions": [
+            {
+              "excerpt": "between Princeton and law school. <b>My dad</b> always exercised all of his",
+              "url": "#interview=U-0080&t=3176"            },
+            {
+              "excerpt": "was my summer vacation. But <b>he</b> would always exercise his influence",
+              "url": "#interview=U-0080&t=3176"            },
+            {
+              "excerpt": "his newspaper. The night before <b>my dad</b> and I had been talking",
+              "url": "#interview=U-0080&t=3301"            },
+            {
+              "excerpt": "It had always been something <b>he</b> was interested in for the",
+              "url": "#interview=U-0080&t=3301"            },
+            {
+              "excerpt": "increase in the landing fees. <b>My dad</b> thought they should have done",
+              "url": "#interview=U-0080&t=3301"            },
+            {
+              "excerpt": "in Atlanta or somewhere else. <b>He</b> and I had been talking",
+              "url": "#interview=U-0080&t=3301"            },
+            {
+              "excerpt": "That is, in part, why <b>my dad</b> was frustrated because nobody could",
+              "url": "#interview=U-0080&t=3451"            },
+            {
+              "excerpt": "until his death David Vann, <b>my dad</b>, and I always remained very",
+              "url": "#interview=U-0080&t=3572"            }
+          ],
+          "name": "Art Hanes",
+          "value": 8
+        },
+        {
+          "mentions": [
+            {
+              "excerpt": "knew anybody. Well, what about <b>George Seibels</b>? I've been doing some research",
+              "url": "#interview=U-0080&t=3129"            },
+            {
+              "excerpt": "City of Birmingham. That summer <b>George Seibels</b> was, I think, president of",
+              "url": "#interview=U-0080&t=3176"            },
+            {
+              "excerpt": "city council. I don't think <b>he</b> was mayor yet. He may",
+              "url": "#interview=U-0080&t=3176"            },
+            {
+              "excerpt": "think he was mayor yet. <b>He</b> may have been mayor. He",
+              "url": "#interview=U-0080&t=3176"            },
+            {
+              "excerpt": "He may have been mayor. <b>He</b> has a very nice home",
+              "url": "#interview=U-0080&t=3176"            },
+            {
+              "excerpt": "early morning, early morning, and <b>he</b>'s got a little hill",
+              "url": "#interview=U-0080&t=3176"            },
+            {
+              "excerpt": "back in the house. But <b>George Seibels</b> was one of the people",
+              "url": "#interview=U-0080&t=3395"            },
+            {
+              "excerpt": "talking about. Well, I know <b>he</b> did a lot of work",
+              "url": "#interview=U-0080&t=3409"            },
+            {
+              "excerpt": "all of those developments then <b>George Seibels</b>, and Albert Boutwell, and the",
+              "url": "#interview=U-0080&t=3451"            }
+          ],
+          "name": "George Seibels",
+          "value": 9
+        },
+        {
+          "mentions": [
+            {
+              "excerpt": "in the city. What about <b>David Vann</b>? I guess he's the next",
+              "url": "#interview=U-0080&t=3546"            },
+            {
+              "excerpt": "he's the next mayor. Yeah, <b>David</b> was the next mayor. David",
+              "url": "#interview=U-0080&t=3553"            },
+            {
+              "excerpt": "David was the next mayor. <b>David Vann</b> and his partners, Vernon Patrick",
+              "url": "#interview=U-0080&t=3553"            },
+            {
+              "excerpt": "the hands of the council. <b>David Vann</b> was a very, very, very",
+              "url": "#interview=U-0080&t=3572"            },
+            {
+              "excerpt": "know, we're talking about history. <b>David Vann</b> and his friends were proponents",
+              "url": "#interview=U-0080&t=3572"            },
+            {
+              "excerpt": "and up until his death <b>David Vann</b>, my dad, and I always",
+              "url": "#interview=U-0080&t=3572"            },
+            {
+              "excerpt": "the way I feel about <b>David Vann</b>. He was a very, very",
+              "url": "#interview=U-0080&t=3572"            },
+            {
+              "excerpt": "I feel about David Vann. <b>He</b> was a very, very astute",
+              "url": "#interview=U-0080&t=3572"            }
+          ],
+          "name": "David Vann",
+          "value": 8
+        },
+        {
+          "mentions": [
+            {
+              "excerpt": "could do anything with old <b>Bull</b>, and that, in large measure",
+              "url": "#interview=U-0080&t=3451"            },
+            {
+              "excerpt": "way to get rid of <b>Bull Connor</b> and that kind of approach",
+              "url": "#interview=U-0080&t=3572"            }
+          ],
+          "name": "Bull Connor",
+          "value": 2
+        }
+      ],
+      "name": "Former Birmingham mayors; changes in city government",
+      "url": "#interview=U-0080&t=3110"
+    },
+    {
+      "entities": [
+        {
+          "mentions": [
+            {
+              "excerpt": "of the matter is, as <b>my dad</b> always said until the day",
+              "url": "#interview=U-0080&t=3878"            }
+          ],
+          "name": "Art Hanes",
+          "value": 1
+        },
+        {
+          "mentions": [
+            {
+              "excerpt": "Civil Rights Institute? I know <b>David Vann</b> was instrumental in that and",
+              "url": "#interview=U-0080&t=3618"            }
+          ],
+          "name": "David Vann",
+          "value": 1
+        },
+        {
+          "mentions": [
+            {
+              "excerpt": "instrumental in that and also <b>Richard Arrington</b>. The Civil Rights Institute, I",
+              "url": "#interview=U-0080&t=3618"            },
+            {
+              "excerpt": "know, you're talking about people. <b>Richard Arrington</b> could make the trains run",
+              "url": "#interview=U-0080&t=3930"            },
+            {
+              "excerpt": "He doesn't get along well. <b>Richard Arrington</b> was a very efficient mayor",
+              "url": "#interview=U-0080&t=3930"            }
+          ],
+          "name": "Richard Arrington",
+          "value": 3
+        },
+        {
+          "mentions": [
+            {
+              "excerpt": "last things. What about the <b>Civil Rights Institute</b>? I know David Vann was",
+              "url": "#interview=U-0080&t=3618"            },
+            {
+              "excerpt": "and also Richard Arrington. The <b>Civil Rights Institute</b>, I don't know what your",
+              "url": "#interview=U-0080&t=3640"            },
+            {
+              "excerpt": "your question is. What about <b>it</b>? Is it what are my",
+              "url": "#interview=U-0080&t=3640"            },
+            {
+              "excerpt": "Sure. I think that the <b>Civil Rights Institute</b> is a very good thing",
+              "url": "#interview=U-0080&t=3669"            },
+            {
+              "excerpt": "guess that's the answer. The <b>Civil Rights Institute</b> is part of the passage",
+              "url": "#interview=U-0080&t=3886"            },
+            {
+              "excerpt": "have to go to the <b>Civil Rights Institute</b> and remember marchers than it",
+              "url": "#interview=U-0080&t=3886"            }
+          ],
+          "name": "Civil Rights Institute",
+          "value": 6
+        },
+        {
+          "mentions": [
+            {
+              "excerpt": "As far as I'm concerned <b>Bernard Kincaid</b> is not a good administrator",
+              "url": "#interview=U-0080&t=3930"            },
+            {
+              "excerpt": "is not a good administrator. <b>He</b> doesn't get along well. Richard",
+              "url": "#interview=U-0080&t=3930"            },
+            {
+              "excerpt": "was a very efficient mayor. <b>Bernard Kincaid</b> is not. Race has nothing",
+              "url": "#interview=U-0080&t=3930"            }
+          ],
+          "name": "Bernard Kincaid",
+          "value": 3
+        }
+      ],
+      "name": "Making the Civil Rights Movement history; changes in Birmingham",
+      "url": "#interview=U-0080&t=3616"
+    }
+  ]
+}

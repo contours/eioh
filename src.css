@@ -6,6 +6,18 @@
   --blue: rgba(0,116,217,1);
 }
 
+html {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
 .turn { 
   color: rgba(0,0,0,1);
   transition: color 1s ease;
