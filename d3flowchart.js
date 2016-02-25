@@ -113,7 +113,7 @@ d3flowchart.create = function(el, props) {
     .attr('width', flow.sessionWidth())
     .on('click', showMentions)
 
-  d3.select(el).on("click", hideMentions)
+  d3.select(el).on('click', hideMentions)
 
   function showMentions(d) {
     d3.event.stopPropagation()
