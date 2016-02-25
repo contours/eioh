@@ -1,5 +1,6 @@
 {
   "name": "eioh",
+  "config": { "ui": "basic-ui" },
   "private": true,
   "main": "index.js",
   "devDependencies": {
@@ -19,7 +20,7 @@
     "lint": "eslint --ext .jsx src",
     "css": "cssnext src.css style.css",
     "watch-css": "watchy -s -w src.css -- npm -s run css",
-    "serve": "npm -s run watch-css & budo index.js:bundle.js --live -- -t [ babelify ] --extension=.jsx | garnish"
+    "serve": "npm -s run lint && npm -s run watch-css & budo $npm_package_config_ui/index.js:bundle.js --dir $npm_package_config_ui --dir served --live -- -t [ babelify ] --extension=.jsx"
   },
   "dependencies": {
     "babel-runtime": "^6.3.19",
