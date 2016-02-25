@@ -165,7 +165,7 @@ class FlowUI extends React.Component {
             [ this.state.flowdata['U-0078']
             , this.state.flowdata['U-0080']
             ]}
-          height={870}
+          height={1150}
           width={1350}
         />
         <div

@@ -30,7 +30,7 @@ class FlowMap extends React.Component {
     { entityPadding: 1
     , layoutIterations: 32
     , margin: { top: 1, right: 1, bottom: 1, left: 20 }
-    , sessionPadding: 120
+    , sessionPadding: 130
     , sessionWidth: 150
     };
   constructor(props) {

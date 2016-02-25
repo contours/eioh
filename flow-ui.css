@@ -74,8 +74,8 @@ html, body {
 #player {
     position: absolute;
     top: 0;
-    right: -650px;
-    width: 650px;
+    right: -500px;
+    width: 500px;
     background-color: #FFFFFF;
     border-left: 1px solid #1F1F1F;
     transition: right 0.5s ease;
@@ -83,7 +83,7 @@ html, body {
 }
 
 #player.closed {
-    right: -650px;
+    right: -500px;
 }
 
 #player.open {
@@ -91,21 +91,21 @@ html, body {
 }
 
 #chart {
-    font-size: 11px;
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
-    position: relative;
-    width: 1300px;
-    height: 870px;
+    font-size: 11px;
+    height: 1150px;
     margin-left: 40px;
+    position: relative;
+    width: 1350px;
 }
 
 svg {
-    font-size: 11px;
+    font-size: 15px;
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .legend {
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .entity path {
@@ -146,6 +146,7 @@ svg {
 
 .session-label text {
     font-weight: bold;
+    font-size: 0.8em;
 }
 
 .session-label:hover text {
@@ -164,20 +165,20 @@ svg {
 #bubble {
     position: absolute;
     display: none;
-    font-size: 11px;
+    font-size: 14px;
     background-color: #F8F8F8;
     border: 1px solid #C8C8C8;
     border-radius: 5px;
 }
 
 #bubble h1 {
-    font-size: 1.1em;
+    font-size: 1.2em;
     padding-left: 15px;
 }
 
 #bubble ol {
     margin: 0;
-    padding: 0 10px 10px 30px;
+    padding: 0 10px 10px 40px;
 }
 
 #bubble li {
