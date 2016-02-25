@@ -35,10 +35,10 @@ d3flowchart.create = function(el, props) {
   }
 
   flow.entityFilter(
-    // only keep entities participating in multiple sessions
-    function(entity) {
-      return ('nodes' in entity && entity.nodes.length > 1)
-    })
+      // only keep entities participating in multiple sessions
+      function(entity) {
+        return ('nodes' in entity && entity.nodes.length > 1)
+      })
     .valueScale(
       function(domain) {
         return d3.scale.log()
