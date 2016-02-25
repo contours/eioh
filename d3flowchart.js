@@ -1,6 +1,8 @@
 'use strict'
 
 import d3 from 'd3'
+window.d3 = d3
+import 'd3-svg-legend'
 import colorbrewer from 'colorbrewer'
 import './entityflow'
 import {wrap} from './utils'
@@ -47,6 +49,20 @@ d3flowchart.create = function(el, props) {
     .sessionPadding(props.sessionPadding)
     .entityPadding(props.entityPadding)
     .layout(props.layoutIterations)
+
+  // draw legend
+  svg.append('g')
+    .attr('class', 'legend')
+    .attr('transform', 'translate(1100,55)')
+  var ordinal = d3.scale.ordinal()
+    .domain(props.flowdata.map(s => s.label).sort())
+    .range([d3.rgb('#E5E5E5'), d3.rgb('#465A61')])
+  var legend = d3.legend.color()
+    .shape('path', d3.svg.symbol().type('square').size(500)())
+    .shapePadding(10)
+    .scale(ordinal)
+  svg.select('.legend').call(legend)
+  // end draw legend
 
   svg.append('g')
     .selectAll('.session')
