@@ -16,12 +16,6 @@ class FlowMap extends React.Component {
       ).isRequired
     , height: React.PropTypes.number.isRequired
     , layoutIterations: React.PropTypes.number
-    , margin: React.PropTypes.shape(
-      { top: React.PropTypes.number
-      , right: React.PropTypes.number
-      , bottom: React.PropTypes.number
-      , left: React.PropTypes.number
-      })
     , sessionPadding: React.PropTypes.number
     , sessionWidth: React.PropTypes.number
     , width: React.PropTypes.number.isRequired
@@ -29,7 +23,6 @@ class FlowMap extends React.Component {
   static defaultProps =
     { entityPadding: 1
     , layoutIterations: 32
-    , margin: { top: 1, right: 1, bottom: 1, left: 20 }
     , sessionPadding: 130
     , sessionWidth: 150
     };
