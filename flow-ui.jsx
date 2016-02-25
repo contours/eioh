@@ -192,14 +192,3 @@ class FlowUI extends React.Component {
   }
 }
 export default FlowUI
-
-/*
-        <FlowMap
-          flowdata={
-            [ this.state.flowdata['U-0078']
-            , this.state.flowdata['U-0080']
-            ]}
-          height={900}
-          width={1400}
-        />
-*/
