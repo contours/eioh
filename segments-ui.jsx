@@ -81,6 +81,7 @@ class SegmentsUI extends React.Component {
       { selected: 'U-0078'
       , transcripts: {}
       , segments: {}
+      , times: {}
       , time: 0
       , seekTime: null
       }
@@ -91,8 +92,10 @@ class SegmentsUI extends React.Component {
         .then(response => response.json())
         .then(o => this.setState(state => {
           let transcripts = Object.assign({}, state.transcripts)
+            , times = Object.assign({}, state.times)
           transcripts[o.id] = o
-          return {transcripts: transcripts}
+          times[o.id] = 0
+          return {transcripts: transcripts, times: times}
         }))
       fetch(`/media/${path}/segments.json`)
         .then(response => response.json())
@@ -104,7 +107,15 @@ class SegmentsUI extends React.Component {
     }
   }
   handleChangeTranscript(id) {
-    this.setState({selected: id})
+    let times = Object.assign({}, this.state.times)
+    times[this.state.selected] = this.state.time
+    this.setState(
+      { selected: id
+      , time: this.state.times[id]
+      , seekTime: this.state.times[id]
+      , times: times
+      }
+    )
   }
   handleSelectSegment(start) {
     this.setState({seekTime: start})
