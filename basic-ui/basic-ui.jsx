@@ -12,7 +12,7 @@ const Label = ({id, label}) => (
 
 const Button = ({id, label}, isActive, onClick) => {
   let classes = "flex-auto btn x-group-item not-rounded "
-    + (isActive ? "btn-primary is-active" : "btn-outline")
+    + (isActive ? "btn-primary is-active" : "border-none")
   let handleClick = () => {
     if (isActive) return
     onClick(id)
@@ -42,7 +42,17 @@ class BasicUI extends React.Component {
   constructor(props) {
     super(props)
     this.handleChangeTranscript = this.handleChangeTranscript.bind(this)
-    this.state = {selected: 'U-0078', transcripts: {}}
+    this.handleTimeUpdate = this.handleTimeUpdate.bind(this)
+    this.handlePause = this.handlePause.bind(this)
+    this.handlePlaying = this.handlePlaying.bind(this)
+    this.state =
+      { playing: false
+      , selected: 'U-0078'
+      , transcripts: {}
+      , times: {}
+      , time: 0
+      , seekTime: null
+      }
   }
   componentDidMount() {
     for (var path of ['baxley', 'hanes']) {
@@ -50,13 +60,36 @@ class BasicUI extends React.Component {
         .then(response => response.json())
         .then(o => this.setState(state => {
           let transcripts = Object.assign({}, state.transcripts)
+            , times = Object.assign({}, state.times)
           transcripts[o.id] = o
-          return {transcripts: transcripts}
+          times[o.id] = 0
+          return {transcripts: transcripts, times: times}
         }))
     }
   }
   handleChangeTranscript(id) {
-    this.setState({selected: id})
+    let times = Object.assign({}, this.state.times)
+    times[this.state.selected] = this.state.time
+    this.setState(
+      { selected: id
+      , time: this.state.times[id]
+      , seekTime: this.state.times[id]
+      , times: times
+      }
+    )
+  }
+  handleTimeUpdate(time) {
+    if (time === this.state.seekTime) {
+      this.setState({time: time, seekTime: null})
+    } else {
+      this.setState({time: time})
+    }
+  }
+  handlePause() {
+    this.setState({playing: false})
+  }
+  handlePlaying() {
+    this.setState({playing: true})
   }
   render() {
     if (! ('U-0078' in this.state.transcripts)) return <div/>
@@ -66,18 +99,26 @@ class BasicUI extends React.Component {
       , this.state.transcripts['U-0080']
       ]
     return (
-      <div>
+      <div
+        className="container px3 bg-white"
+        style={{maxWidth: "768px"}}
+      >
         <ButtonGroup
           items={transcripts}
           onClick={this.handleChangeTranscript}
           selected={this.state.selected}
         />
         <div
-          className="flex flex-column mt3"
-          style={{height: "90vh"}}
+          className="flex flex-column"
+          style={{height: "calc(100vh - 36px)"}}
         >
           <div className="flex flex-stretch flex-auto">
             <TranscriptPlayer
+              onPause={this.handlePause}
+              onPlaying={this.handlePlaying}
+              onTimeUpdate={this.handleTimeUpdate}
+              play={this.state.playing}
+              seekTime={this.state.seekTime}
               transcript={this.state.transcripts[this.state.selected]}
             />
           </div>
