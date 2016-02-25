@@ -160,12 +160,12 @@ d3flowchart.create = function(el, props) {
     var render = function(d) {
       return '<a class="mention" href="' + d.url + '">' + d.excerpt + '</a>'
     }
-    var sel = d3.select("#bubble ol")
-      .selectAll("li")
+    var sel = d3.select('#bubble ol')
+      .selectAll('li')
       .data(d.mentions)
       .html(render)
     sel.enter()
-      .append("li")
+      .append('li')
       .html(render)
     sel.exit().remove()
   }
