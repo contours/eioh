@@ -158,7 +158,7 @@ d3flowchart.create = function(el, props) {
     arrow.classed(arrowClasses)
     d3.select('#count').text(d.mentions.length)
     var render = function(d) {
-      return '<a href="' + d.url + '">' + d.excerpt + '</a>'
+      return '<a class="mention" href="' + d.url + '">' + d.excerpt + '</a>'
     }
     var sel = d3.select("#bubble ol")
       .selectAll("li")
@@ -171,7 +171,9 @@ d3flowchart.create = function(el, props) {
   }
 
   function hideMentions() {
-    d3.select("#bubble").style("display", "none")
+    if (d3.event.target.className !== 'mention') {
+      d3.select('#bubble').style('display', 'none')
+    }
   }
 
   const sessionLabelHeight = 85
