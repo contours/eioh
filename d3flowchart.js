@@ -117,21 +117,31 @@ d3flowchart.create = function(el, props) {
 
   function showMentions(d) {
     d3.event.stopPropagation()
-    var bubble = d3.select("#bubble")
-      , style =
-        { display: "block"
-        , top: Math.round(d.y + d.dy + 6) + "px"
-        }
+    var bubble = d3.select('#bubble')
+      , arrow = d3.select('#bubble .arrow')
+      , arrowClasses = {arrow: true}
+      , style = { display: 'block' }
     if (d.x < props.width/2) {
-      d3.select("#bubble .arrow")
-        .classed({arrow: true, left: true, right: false})
-      style.left = Math.round(d.x) + "px"
-      style.right = "auto"
+      arrowClasses.left = true
+      arrowClasses.right = false
+      style.left = Math.round(d.x) + 'px'
+      style.right = 'auto'
     } else {
-      d3.select("#bubble .arrow")
-        .classed({arrow: true, left: false, right: true})
-      style.left = "auto"
-      style.right = Math.round(props.width - d.x - d.dx) + "px"
+      arrowClasses.left = false
+      arrowClasses.right = true
+      style.left = 'auto'
+      style.right = Math.round(props.width - d.x - d.dx) + 'px'
+    }
+    if (d.y < props.height/2) {
+      arrowClasses.top = true
+      arrowClasses.bottom = false
+      style.top = Math.round(d.y + d.dy + 6) + 'px'
+      style.bottom = 'auto'
+    } else {
+      arrowClasses.top = false
+      arrowClasses.bottom = true
+      style.top = 'auto'
+      style.bottom = Math.round(props.height - d.y + 6) + 'px'
     }
     var changed = false
     for (var prop in style) {
@@ -145,7 +155,8 @@ d3flowchart.create = function(el, props) {
       return
     }
     bubble.style(style)
-    d3.select("#count").text(d.mentions.length)
+    arrow.classed(arrowClasses)
+    d3.select('#count').text(d.mentions.length)
     var render = function(d) {
       return '<a href="' + d.url + '">' + d.excerpt + '</a>'
     }
