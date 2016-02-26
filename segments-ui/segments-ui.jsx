@@ -12,7 +12,7 @@ const Label = ({id, label}) => (
 
 const Button = ({id, label}, isActive, onClick) => {
   let classes = "flex-auto btn x-group-item not-rounded "
-    + (isActive ? "btn-primary is-active" : "btn-outline")
+    + (isActive ? "btn-primary is-active" : "border-none")
   let handleClick = () => {
     if (isActive) return
     onClick(id)
@@ -77,8 +77,11 @@ class SegmentsUI extends React.Component {
     this.handleChangeTranscript = this.handleChangeTranscript.bind(this)
     this.handleSelectSegment = this.handleSelectSegment.bind(this)
     this.handleTimeUpdate = this.handleTimeUpdate.bind(this)
+    this.handlePause = this.handlePause.bind(this)
+    this.handlePlaying = this.handlePlaying.bind(this)
     this.state =
-      { selected: 'U-0078'
+      { playing: false
+      , selected: 'U-0078'
       , transcripts: {}
       , segments: {}
       , times: {}
@@ -127,6 +130,12 @@ class SegmentsUI extends React.Component {
       this.setState({time: time})
     }
   }
+  handlePause() {
+    this.setState({playing: false})
+  }
+  handlePlaying() {
+    this.setState({playing: true})
+  }
   render() {
     if (! ('U-0078' in this.state.transcripts)) return <div/>
     if (! ('U-0078' in this.state.segments)) return <div/>
@@ -137,7 +146,10 @@ class SegmentsUI extends React.Component {
       , this.state.transcripts['U-0080']
       ]
     return (
-      <div>
+      <div
+        className="container px3 bg-white"
+        style={{maxWidth: "768px"}}
+      >
         <ButtonGroup
           items={transcripts}
           onClick={this.handleChangeTranscript}
@@ -155,7 +167,10 @@ class SegmentsUI extends React.Component {
           >
             <div className="flex flex-stretch flex-auto">
               <TranscriptPlayer
+                onPause={this.handlePause}
+                onPlaying={this.handlePlaying}
                 onTimeUpdate={this.handleTimeUpdate}
+                play={this.state.playing}
                 seekTime={this.state.seekTime}
                 transcript={this.state.transcripts[this.state.selected]}
               />
