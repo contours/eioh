@@ -1,6 +1,5 @@
 {
   "name": "eioh",
-  "config": { "ui": "basic-ui" },
   "private": true,
   "main": "index.js",
   "devDependencies": {
@@ -17,10 +16,14 @@
     "watchy": "^0.6.5"
   },
   "scripts": {
-    "lint": "eslint --ext .jsx src",
-    "css": "cssnext src.css style.css",
-    "watch-css": "watchy -s -w src.css -- npm -s run css",
-    "serve": "npm -s run lint && npm -s run watch-css & budo $npm_package_config_ui/index.js:bundle.js --dir $npm_package_config_ui --dir served --live -- -t [ babelify ] --extension=.jsx"
+    "lint": "eslint --ext .jsx .",
+    "css": "cssnext -U src.css served/style.css",
+    "watch-css": "watchy -s -w src.css -- npm -s run css &",
+    "check-usage": "[ -n \"$npm_config_ui\" ] || (echo 'Usage: npm run serve --ui=[basic-ui|segments-ui|flow-ui]' && exit 1)",
+    "predevelop": "npm -s run check-usage && npm -s run lint",
+    "develop": "npm -s run watch-css && budo $npm_config_ui/index.js:bundle.js --dir $npm_config_ui --dir served --live -- -t [ babelify ] --extension=.jsx",
+    "preserve": "npm -s run predevelop",
+    "serve": "npm -s run css && budo $npm_config_ui/index.js:bundle.js --dir $npm_config_ui --dir served -- -t [ babelify ] --extension=.jsx"
   },
   "dependencies": {
     "babel-runtime": "^6.3.19",
