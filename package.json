@@ -3,6 +3,7 @@
   "private": true,
   "main": "index.js",
   "devDependencies": {
+    "babel-cli": "^6.6.5",
     "babel-eslint": "^6.0.2",
     "babel-plugin-transform-runtime": "^6.3.13",
     "babel-preset-es2015": "^6.3.13",
@@ -14,17 +15,24 @@
     "eslint": "^1.9.0",
     "eslint-plugin-react": "^3.8.0",
     "garnish": "^5.0.1",
+    "uglify-js": "^2.6.2",
     "watchy": "^0.6.5"
   },
   "scripts": {
     "lint": "eslint --ext .jsx .",
     "css": "cssnext -U src.css served/style.css",
     "watch-css": "watchy -s -w src.css -- npm -s run css &",
-    "check-usage": "[ -n \"$npm_config_ui\" ] || (echo 'Usage: npm run serve --ui=[basic-ui|segments-ui|flow-ui]' && exit 1)",
+    "check-usage": "[ -n \"$npm_config_ui\" ] || (echo 'Usage: npm run [command] --ui=[basic-ui|segments-ui|flow-ui]' && exit 1)",
     "predevelop": "npm -s run check-usage && npm -s run lint",
     "develop": "npm -s run watch-css && budo $npm_config_ui/index.js:bundle.js --dir $npm_config_ui --dir served --live -- -t [ babelify ] --extension=.jsx",
     "preserve": "npm -s run predevelop",
-    "serve": "npm -s run css && budo $npm_config_ui/index.js:bundle.js --dir $npm_config_ui --dir served -- -t [ babelify ] --extension=.jsx"
+    "serve": "npm -s run css && budo $npm_config_ui/index.js:bundle.js --dir $npm_config_ui --dir served -- -t [ babelify ] --extension=.jsx",
+    "pretranspile": "npm -s run lint",
+    "transpile": "babel -d lib --ignore lib,dist,node_modules .",
+    "predist-ui": "npm -s run check-usage && npm -s run transpile",
+    "dist-ui": "mkdir -p dist/$npm_config_ui && browserify lib/$npm_config_ui/index.js | uglifyjs -c > dist/$npm_config_ui/bundle.js && cp $npm_config_ui/index.html dist/$npm_config_ui/ && cp $npm_config_ui/*.css dist/$npm_config_ui/ || :",
+    "predist": "npm -s run css && rm -rf dist/fonts && cp -R served/ dist/ && rm -f dist/fonts && cp -R node_modules/font-awesome/fonts dist/",
+    "dist": "for ui in *-ui; do npm -s run dist-ui --ui=$ui; done"
   },
   "dependencies": {
     "babel-runtime": "^6.3.19",
@@ -35,7 +43,7 @@
     "font-awesome": "^4.5.0",
     "react": "^0.14.5",
     "react-dom": "^0.14.5",
-    "react-transcript-player": "^1.2.0",
+    "react-transcript-player": "^1.4.0",
     "whatwg-fetch": "^0.10.1"
   }
 }

@@ -74,8 +74,8 @@ html, body {
 #player {
     position: absolute;
     top: 0;
-    right: -500px;
-    width: 500px;
+    right: -775px;
+    width: 775px;
     background-color: #FFFFFF;
     border-left: 1px solid #1F1F1F;
     transition: right 0.5s ease;
@@ -83,7 +83,7 @@ html, body {
 }
 
 #player.closed {
-    right: -500px;
+    right: -775px;
 }
 
 #player.open {

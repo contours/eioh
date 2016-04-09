@@ -148,7 +148,7 @@ class SegmentsUI extends React.Component {
     return (
       <div
         className="container px3 bg-white"
-        style={{maxWidth: "768px"}}
+        style={{maxWidth: "1056px"}}
       >
         <ButtonGroup
           items={transcripts}
