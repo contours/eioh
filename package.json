@@ -32,7 +32,9 @@
     "predist-ui": "npm -s run check-usage && npm -s run transpile",
     "dist-ui": "mkdir -p dist/$npm_config_ui && browserify lib/$npm_config_ui/index.js | uglifyjs -c > dist/$npm_config_ui/bundle.js && cp $npm_config_ui/index.html dist/$npm_config_ui/ && cp $npm_config_ui/*.css dist/$npm_config_ui/ || :",
     "predist": "npm -s run css && rm -rf dist/fonts && cp -R served/ dist/ && rm -f dist/fonts && cp -R node_modules/font-awesome/fonts dist/ && cp dist-index.html dist/index.html",
-    "dist": "for ui in *-ui; do npm -s run dist-ui --ui=$ui; done"
+    "dist": "for ui in *-ui; do npm -s run dist-ui --ui=$ui; done",
+    "predeploy": "npm -s run dist",
+    "deploy": "rm -f dist.zip && zip -r dist.zip dist && scp dist.zip aeshin.org: && ssh aeshin.org 'unzip dist.zip && rm -rf eioh && mv dist eioh'"
   },
   "dependencies": {
     "babel-runtime": "^6.3.19",
