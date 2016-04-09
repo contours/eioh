@@ -47,5 +47,6 @@
     "react-dom": "^0.14.5",
     "react-transcript-player": "^1.4.0",
     "whatwg-fetch": "^0.10.1"
-  }
+  },
+  "version": "1.0.0"
 }
